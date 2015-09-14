@@ -1,0 +1,71 @@
+body {
+	background-color: hsla(0, 0%, 0%, .25);
+	margin: 0;
+}
+div {
+	width: 50vw;
+	height: 50vw;
+	margin: 50px auto;
+	background-color: hsla(0, 0%, 100%, 1);
+	position: relative;
+}
+/* CLEARFIX - clears floats */ 
+div::after {
+	content: "";
+	display: block;
+	clear: both;
+	
+}
+img {
+	width: 25%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	
+}
+
+#cat1 {
+	top: 0;
+	left: auto;
+	right: 0;
+}
+#cat2 {
+	top: auto;
+	left: auto;
+	bottom: 0;
+	right: 0;
+}
+#cat3 {
+	top: auto;
+	left: 0;
+	bottom: 0;
+}
+#cat4 {
+	top: 0;
+	left: 0; 
+}
+#cat5 {
+	top: 37%;
+	left: 40%;
+}
+#cat6 {
+	top: 37%;
+	left: 40%;
+}
+#cat7 {
+	top: auto;
+	left: auto;
+	bottom: 0;
+	right: 0;
+}
+#cat8 {
+	top: 0;
+	left: 0; 
+
+}
+#cat9 {
+	top: 0;
+	left: 0; 
+}
