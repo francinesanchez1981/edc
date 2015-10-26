@@ -1,0 +1,135 @@
+@import "reset";
+@import "fontawesome";
+@import "variables";
+
+/* sass goes here */
+body {
+	background-color: pink;
+}
+header {
+
+	div {
+		nav {
+			justify-content: space-between;
+			display: flex;
+			flex-direction: row;
+			font-family: fantasy;
+			font-size: 80%;
+		
+				
+			ul {
+				display: flex;
+				flex-direction: row;
+				font-family: fantasy;
+				font-size: 150%;
+		
+				li{
+					padding: 1vw;
+					font-family: fantasy;
+					font-size: 150%;
+		
+				}
+
+			}
+		}
+		.image {
+			background-image: url("../img/water.jpg");
+			padding: 150px 0;
+			background-size: cover;
+			background-position: center;
+			//width: 150px;
+			//height: 150px;
+
+		}
+		h2 {
+			text-align: center;
+			font-family: fantasy;
+			font-size: 150%;
+		
+		}
+		p {
+			text-align: center;
+			font-family: fantasy;
+			font-size: 150%;
+		
+		}
+		
+	}
+
+}
+
+section {
+	h2 {
+		padding: 10vw 0;
+		text-align: center;
+		font-family: fantasy;
+		font-size: 150%;
+		
+		}
+	.img_container {
+		display: flex;
+		flex-direction: row;
+		//flex-wrap: wrap;
+		justify-content: center;
+		line-items: center;
+
+	}
+	.img_container2 {
+		display: flex;
+		flex-direction: row;
+		//flex-wrap: wrap;
+		justify-content: center;
+		line-items: center;
+	}
+	.container_3 {
+		padding: 10vw 0;
+		text-align: center;
+	}
+	p {
+		display: flex;
+		flex-direction: row;
+		font-family: fantasy;
+		font-size: 150%;
+		
+
+	}
+	
+	}
+	.sparkle {
+		background-image: url("../img/sparkles.jpg");
+		padding: 30px 0;
+		background-size: center;
+		background-position: center;
+		//width: 150px;
+		//height: 150px;
+
+	}
+
+
+	section {
+		h1 {
+		
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			padding: 10vw 0;
+			background: center;
+			font-family: fantasy;
+			font-size: 150%;
+			font-variant: inherit;
+		
+
+
+		}
+		button {	
+			text-align: center;
+			font-family: fantasy;
+			font-size: 90%;
+		
+		}
+
+	}
+input {
+	width: 30%;
+}
+
